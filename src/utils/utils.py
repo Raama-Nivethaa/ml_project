@@ -30,10 +30,13 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
             # Train model
             model.fit(X_train,y_train)
 
+            y_train_pred=model.predict(X_train)
             
 
             # Predict Testing data
             y_test_pred =model.predict(X_test)
+            
+            train_model_pred=accuracy_score(y_train,y_train_pred)
 
             # Get R2 scores for train and test data
             #train_model_score = r2_score(ytrain,y_train_pred)
