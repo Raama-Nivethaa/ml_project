@@ -17,6 +17,7 @@ from src.components.data_transformation import DataTransformationConfig
 from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 
+
 @dataclass
 class DataIngestionConfig:
     raw_data_path:str=os.path.join("artifacts","raw.csv")
@@ -73,3 +74,5 @@ if __name__=="__main__":
     
     modeltrainer=ModelTrainer()
     print(modeltrainer.initate_model_training(train_arr,test_arr))
+    
+   

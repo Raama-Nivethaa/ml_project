@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/neel/OneDrive/Desktop/ml_project/mlruns/0/646742eb31ef4eeb8745ffcbbc26880f/artifacts
+end_time: 1742396506261
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 646742eb31ef4eeb8745ffcbbc26880f
+run_name: overjoyed-hog-569
+run_uuid: 646742eb31ef4eeb8745ffcbbc26880f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742396483822
+status: 3
+tags: []
+user_id: neel
